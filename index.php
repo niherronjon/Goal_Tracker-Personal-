@@ -13,7 +13,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Create database if not exists
+// Create database if not exists in db
 $conn->query("CREATE DATABASE IF NOT EXISTS $database");
 $conn->select_db($database);
 
