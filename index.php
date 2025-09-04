@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-// Database Configuration
+// Database Configuration connect
 $host = "localhost";
 $username = "root";
 $password = "";
