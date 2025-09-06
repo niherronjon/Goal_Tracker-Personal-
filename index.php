@@ -7,7 +7,7 @@ $username = "root";
 $password = "";
 $database = "goal_tracker_app";
 
-// Create connection
+// Create connection db
 $conn = new mysqli($host, $username, $password);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
