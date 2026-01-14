@@ -19,7 +19,7 @@ if ($conn->connect_error) {
 $conn->query("CREATE DATABASE IF NOT EXISTS $database");
 $conn->select_db($database);
 
-// Create tables in db
+// Create tables in database
 $conn->query("CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     email VARCHAR(255) UNIQUE NOT NULL,
